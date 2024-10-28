@@ -12,28 +12,37 @@ public class Movement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
 
     private float horizontalValue;
-
     private bool isGrounded = false;
+    public static bool canMove = true;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();   
+        
     }
     private void Update()
     {
-        horizontalValue = Input.GetAxisRaw("Horizontal");
-
-        if(Input.GetButtonDown("Jump") && isGrounded == true)
+        if(canMove)
         {
-            rb.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+            horizontalValue = Input.GetAxisRaw("Horizontal");
+
+            if (Input.GetButtonDown("Jump") && isGrounded == true)
+            {
+                rb.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+            }
         }
+ 
 
     }
 
     private void FixedUpdate()
     {
         GroundCheck();
-        Move(horizontalValue);
+        if(canMove)
+        {
+            Move(horizontalValue);
+
+        }
     }
 
     void Move(float dir)
@@ -52,6 +61,8 @@ public class Movement : MonoBehaviour
             isGrounded = true;
         }
     }
+
+
 
 
 }

@@ -12,8 +12,7 @@ public class Score : MonoBehaviour
 
     private void Update()
     {
-        _Score.text = "Score: " + score.ToString();
-        
+        _Score.text = "Score: " + score.ToString() + " / " + NextScene.maxS;
     }
 
 
