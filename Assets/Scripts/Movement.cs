@@ -43,6 +43,11 @@ public class Movement : MonoBehaviour
             Move(horizontalValue);
 
         }
+        if(WeaponMove.isTouchWeapon == true)
+        {
+            rb.AddForce(Vector2.up * 5f, ForceMode2D.Impulse);
+            WeaponMove.isTouchWeapon = false;
+        }
     }
 
     void Move(float dir)

@@ -8,6 +8,7 @@ TagManager:
   - Audio
   - Item
   - dieblock
+  - weapon
   layers:
   - Default
   - TransparentFX
@@ -50,6 +51,9 @@ TagManager:
     locked: 0
   - name: Decor
     uniqueID: 3000413067
+    locked: 0
+  - name: Weapon
+    uniqueID: 2955971737
     locked: 0
   - name: Ground
     uniqueID: 3785723341
