@@ -8,7 +8,7 @@ Just Move is the first game i made. The game is very simple becasue I am still l
 Note: Unity2D version is 2022.3.7f1
 
 | [:camera: Screenshots](#screenshots) | [:movie_camera: **See the Walkthrough**](https://www.youtube.com)
-| --------------- | -------- | ----------- | ----------- |
+| ----------- | ----------- |
 
 ## Screenshots
 
