@@ -13,36 +13,32 @@ Note: Unity2D version is 2022.3.7f1
 ## Screenshots
 
 <p align="center">
-  <img src="https://github.com/elifyener/TheLostForest/blob/master/images/tlf-2.png" />
+  <img src="https://github.com/Wclf/JustMove/blob/main/Images/Menu.png" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/elifyener/TheLostForest/blob/master/images/tlf-3.png" />
+  <img src="https://github.com/Wclf/JustMove/blob/main/Images/Man1.png" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/elifyener/TheLostForest/blob/master/images/tlf-4.png" />
+  <img src="https://github.com/Wclf/JustMove/blob/main/Images/Man2.png" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/elifyener/TheLostForest/blob/master/images/tlf-5.png" />
+  <img src="https://github.com/Wclf/JustMove/blob/main/Images/Man3.png" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/elifyener/TheLostForest/blob/master/images/tlf-6.png" />
+  <img src="https://github.com/Wclf/JustMove/blob/main/Images/Lose.png" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/elifyener/TheLostForest/blob/master/images/tlf-7.png" />
+  <img src="https://github.com/Wclf/JustMove/blob/main/Images/Pause.png" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/elifyener/TheLostForest/blob/master/images/tlf-8.png" />
-</p>
-
-<p align="center">
-  <img src="https://github.com/elifyener/TheLostForest/blob/master/images/tlf-9.png" />
+  <img src="https://github.com/Wclf/JustMove/blob/main/Images/End.png" />
 </p>
 
 ## Authors
-Made with :heart: by [Elif Yener](https://github.com/elifyener)
+Made with :heart: by [Wclf](https://github.com/Wclf)
