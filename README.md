@@ -3,16 +3,16 @@
 </p>
 
 # Just Move
-The Lost Forest is an open-source 2D platform game developed with Unity2D. Our character aims to reach the end of the game by collecting the carrots in the chests. It offers a traditional platform game playing experience where we can earn points by collecting stars and neutralizing enemies.
+Just Move is the first game i made. The game is very simple becasue I am still learning how to code games. In the game, you only need to move to collect carrots or cherrys. When your score is full, you can move the next secene. Be careful to avoid the weapons!
 
-Note: Unity2D version is 2020.3.3f1
+Note: Unity2D version is 2022.3.7f1
 
-| [:sparkles: Getting Started](#getting-started) | [:rocket: Download](#download) | [:camera: Screenshots](#screenshots) | [:movie_camera: **See the Walkthrough**](https://www.youtube.com/watch?v=ByTSzMksCyA)
+| [:sparkles: Getting Started](#getting-started) | [:rocket: Download](#download) | [:camera: Screenshots](#screenshots) | [:movie_camera: **See the Walkthrough**](https://www.youtube.com)
 | --------------- | -------- | ----------- | ----------- |
 
 ## Getting Started
 
-Follow the below instructions to get started with The Lost Forest source code:
+Follow the below instructions to get started with Just Move source code:
 
 1. [Make sure you have all Requirements](#requirements)
 2. [Download Source Code](#download)
