@@ -17,8 +17,12 @@ public class WeaponMove : MonoBehaviour
 
     public static bool isTouchWeapon = false;
 
+    AudioManager audioManager;
+
     private void Awake()
     {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+
         // Retrieve waypoints from the GameObject ways into the wayPoints array
         pointCount = ways.transform.childCount;
         wayPoints = new Transform[pointCount];
@@ -72,6 +76,7 @@ public class WeaponMove : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            audioManager.PlaySFX(audioManager.die);
             Death.isDeath = true;
             Movement.canMove = false;
             isTouchWeapon = true;

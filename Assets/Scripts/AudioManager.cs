@@ -11,6 +11,8 @@ public class AudioManager : MonoBehaviour
     [Header("--------------Audio Clip---------------")]
     public AudioClip background;
     public AudioClip getItem;
+    public AudioClip die;
+    public AudioClip click;
 
 
     private void Start()

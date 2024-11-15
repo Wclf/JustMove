@@ -1,19 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using TMPro;
-using System.ComponentModel.Design;
-using Unity.VisualScripting;
 
 public class RestartGame : MonoBehaviour
 {
-    private GameObject player;
-    private Vector3 playerPosition;
     [SerializeField] private float startTime = 60f;
     [SerializeField] private TextMeshProUGUI timeCountDown;
+
+    private GameObject player;
+    private Vector3 playerPosition;
     private float currentTime;
-    
+
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     private void Start()
     {
         currentTime = startTime;
@@ -42,9 +46,18 @@ public class RestartGame : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player"))
         {
-            ResetG.Restart();
+            audioManager.PlaySFX(audioManager.die);
+            Death.isDeath = true;
+            Movement.canMove = false;
+            Invoke("DelayRestart", 0.5f);
         }
     }
 
- 
+    void DelayRestart()
+    {
+        ResetG.Restart();
+        Movement.canMove = true;
+    }
+
+
 }

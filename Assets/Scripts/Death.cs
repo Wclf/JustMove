@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Death : MonoBehaviour
 {
+    [SerializeField] private GameObject MessageLose;
+
+
     public static bool isDeath;
     Animator animator;
 
@@ -15,6 +18,7 @@ public class Death : MonoBehaviour
     {
         if (isDeath)
         {
+            MessageLose.SetActive(true);
             animator.SetTrigger("isDeath");
             isDeath = false;
         }
